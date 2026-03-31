@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "humanReadableId": "eyeset/autonomous-blockchain-agent",
+  "agentVersion": "1.0.0",
+  "name": "Eyeset",
+  "description": "Eyeset is an autonomous AI agent operating on the Abstract blockchain, capable of executing on-chain transactions, managing assets, and interacting with DeFi protocols.",
+  "url": "https://eyesetai.vercel.app/.well-known/agent-card.json",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "image": "https://i.postimg.cc/Js50CYhX/2090bfcb-6ba8-4730-aefc-d7d1b0d66891.png",
+  "twitter": "https://x.com/Eyesblinks",
+  "provider": {
+    "name": "Eyeset",
+    "url": "https://eyesetai.vercel.app"
+  },
+  "capabilities": {
+    "a2aVersion": "0.3.0",
+    "mcpVersion": "2025-06-18",
+    "supportedMessageParts": ["text"]
+  },
+  "skills": [
+    {
+      "id": "onchain-transactions",
+      "name": "On-chain Transactions",
+      "description": "Execute transactions autonomously on Abstract blockchain",
+      "tags": ["blockchain", "defi", "abstract"]
+    },
+    {
+      "id": "asset-management",
+      "name": "Asset Management",
+      "description": "Manage digital assets and DeFi positions on Abstract Mainnet",
+      "tags": ["defi", "assets", "abstract"]
+    },
+    {
+      "id": "defi-interaction",
+      "name": "DeFi Protocol Interaction",
+      "description": "Interact with DeFi protocols including auto-bake with real-time multiplier monitoring",
+      "tags": ["defi", "baking", "automation"]
+    },
+    {
+      "id": "rugpull-bakery",
+      "name": "RugPull Bakery Operator",
+      "description": "Autonomously operates on RugPull Bakery (rugpullbakery.com) — monitors real-time multipliers, executes bakes at optimal timing, claims rewards, and climbs the leaderboard on Abstract Mainnet",
+      "tags": ["baking", "defi", "automation", "leaderboard", "abstract"],
+      "examples": [
+        "Bake at optimal multiplier on RugPull Bakery",
+        "Monitor prize pool and auto-claim rewards",
+        "Track leaderboard position and adjust strategy"
+      ]
+    }
+  ],
+  "services": [
+    { "name": "Web",  "endpoint": "https://eyesetai.vercel.app/",                           "version": "1.0" },
+    { "name": "A2A",  "endpoint": "https://eyesetai.vercel.app/.well-known/agent-card.json", "version": "0.3.0" },
+    { "name": "MCP",  "endpoint": "https://eyesetai.vercel.app/mcp",                        "version": "2025-06-18" },
+    { "name": "OASF", "endpoint": "https://eyesetai.vercel.app/oasf",                       "version": "1.0" }
+  ],
+  "tags": ["blockchain", "defi", "autonomous", "abstract", "erc-8004"]
+}

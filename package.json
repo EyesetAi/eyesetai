@@ -1,5 +1,8 @@
 {
   "name": "eyeset",
   "version": "1.0.0",
-  "scripts": { "build": "echo ok" }
+  "scripts": { "build": "echo ok" },
+  "dependencies": {
+    "ethers": "^6.16.0"
+  }
 }

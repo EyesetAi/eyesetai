@@ -5,13 +5,7 @@
     { "source": "/oasf", "destination": "/oasf.json" }
   ],
   "headers": [
-    {
-      "source": "/oasf.json",
-      "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }]
-    },
-    {
-      "source": "/.well-known/agent-card.json",
-      "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }]
-    }
+    { "source": "/oasf.json", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
+    { "source": "/.well-known/agent-card.json", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] }
   ]
 }

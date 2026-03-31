@@ -1,0 +1,20 @@
+{
+  "name": "OASF",
+  "endpoint": "https://github.com/agntcy/oasf/",
+  "version": "0.8.0",
+  "skills": [
+    "tool_interaction/workflow_automation",
+    "agent_orchestration/agent_coordination",
+    "agent_orchestration/task_decomposition",
+    "evaluation_monitoring/performance_monitoring",
+    "analytical_skills/coding_skills/text_to_code"
+  ],
+  "domains": [
+    "technology/blockchain",
+    "technology/blockchain/cryptocurrency",
+    "technology/blockchain/defi",
+    "technology/blockchain/smart_contracts",
+    "technology/automation/workflow_automation",
+    "finance_and_business/finance"
+  ]
+}
