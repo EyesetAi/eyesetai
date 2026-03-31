@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "name": "Eyeset",
+  "description": "Autonomous AI agent operating on the Abstract blockchain",
+  "version": "1.0.0",
+  "domains": ["finance", "automation", "development"],
+  "skills": [
+    {
+      "id": "onchain-transactions",
+      "name": "On-chain Transactions",
+      "description": "Execute transactions autonomously on Abstract blockchain",
+      "category": "automation"
+    },
+    {
+      "id": "asset-management",
+      "name": "Asset Management",
+      "description": "Manage digital assets and DeFi positions on Abstract Mainnet",
+      "category": "finance"
+    },
+    {
+      "id": "defi-interaction",
+      "name": "DeFi Protocol Interaction",
+      "description": "Interact with DeFi protocols including auto-bake with real-time multiplier monitoring",
+      "category": "finance"
+    },
+    {
+      "id": "rugpull-bakery",
+      "name": "RugPull Bakery Operator",
+      "description": "Autonomously operates on RugPull Bakery (rugpullbakery.com) — monitors real-time multipliers, executes bakes at optimal timing, claims rewards, and climbs the leaderboard on Abstract Mainnet",
+      "category": "automation"
+    }
+  ],
+  "metadata": {
+    "tags": ["blockchain", "defi", "autonomous", "abstract", "erc-8004"],
+    "createdAt": "2026-03-31T00:00:00Z",
+    "updatedAt": "2026-03-31T00:00:00Z"
+  }
+}

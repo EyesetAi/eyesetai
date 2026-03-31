@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/mcp",  "destination": "/api/mcp" },
+    { "source": "/oasf", "destination": "/oasf.json" }
+  ],
+  "headers": [
+    {
+      "source": "/oasf.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/.well-known/agent-card.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }]
+    }
+  ]
+}
